@@ -1,0 +1,190 @@
+body {
+  background: -webkit-linear-gradient(left, #F6FBFF 50%, #ECECEC 50%);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #F6FBFF 50%, #ECECEC 50%);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #F6FBFF 50%, #ECECEC 50%);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, red #F6FBFF%, #ECECEC 50%);
+  /* Standard syntax */
+  overflow-x: hidden;
+  color: #552E87;
+}
+
+@media (max-width:991px) {
+  body {
+    background: #F6FBFF !important;
+  }
+}
+
+.dropdown-menu a:hover, .dropdown-menu a:active {
+  text-decoration: none !important;
+}
+
+hr {
+  border: 0 !important;
+  border-bottom: 1px solid #552E87 !important;
+}
+
+.card {
+  border: 0 !important;
+  border-radius: 0!important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Coolvetica Rg' !Important;
+  color: #552E87 !important;
+}
+
+h4 {
+  font-family: 'Aileron' !Important;
+  font-size: 25px !Important;
+  font-weight: 200 !Important;
+}
+
+h6 {
+  font-size: 120% !important;
+}
+
+p, li, ul {
+  color: #552E87;
+  letter-spacing: -0.02rem;
+  font-family: 'Aileron';
+  line-height: 1.4;
+}
+
+ input, .input-group, .input-group-addon, .input-group {
+    background-color: transparent !important;
+    border-color: #552E87 !important;
+    font-family: 'Aileron' !Important;
+}
+
+.form-control {
+   background-color: white !important;
+   border-color: #552E87 !important;
+   font-family: 'Aileron' !Important;
+ }
+
+li {
+  margin: 1rem;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+ol, ul {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+p.smallText {
+  font-size: 17px;
+  font-weight: normal !important;
+  line-height: 1.55;
+}
+
+/*p.largeText {
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 1.3;
+}*/
+
+.largeText p {
+  font-size: 29px;
+  font-weight: 200;
+  line-height: 1.3;
+}
+
+a {
+  color: #552E87 !important;
+}
+
+.container {
+  width: 100% !important;
+}
+
+.grey {
+  color: grey
+}
+
+.blueBackground {
+  background-color: #F6FBFF;
+}
+
+.beigeBackground {
+  background-color: #ECECEC;
+}
+
+.flexer {
+  display: flex;
+}
+
+.flexerContentCenter {
+  align-self: center;
+}
+
+.heightTall {
+  min-height: 600px;
+}
+
+.spacerTopS {
+  margin-top: 50px;
+}
+
+.spacerTopM {
+  margin-top: 100px;
+}
+
+.spacerTopL {
+  margin-top: 150px;
+}
+
+.spacerBottomS {
+  margin-bottom: 50px;
+}
+
+.spacerBottomM {
+  margin-bottom: 100px;
+}
+
+.spacerBottomL {
+  margin-bottom: 150px;
+}
+
+.negativeSpacerTopS {
+  margin-top: -50px;
+}
+
+.negativeSpacerTopM {
+  margin-top: -100px;
+}
+
+.negativeSpacerTopL {
+  margin-top: -150px;
+}
+
+.negativeSpacerBottomS {
+  margin-bottom: -50px;
+}
+
+.negativeSpacerBottomM {
+  margin-bottom: -100px;
+}
+
+.negativeSpacerBottomL {
+  margin-bottom: -150px;
+}
+
+.navbar-toggler-icon :after {
+  content: "";
+}
+
+.index-full-cover {
+  background: url('~assets/img/FIRST_Rotterdam_Kantoren_uitzicht2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

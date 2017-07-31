@@ -1,0 +1,43 @@
+{
+  "wat": {
+    "title": "wat?",
+    "content": "wat? wat?wat?wat?"
+  },
+  "opdrachtgevers": [{
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_ACCENTURE.png"
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_AEGON.png"
+
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_DELOITTE.png"
+
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_LEEUWENDAAL.png"
+
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_MINISTERIEOCW.png"
+
+    },
+    {
+      "name": "",
+      "url": "",
+      "imgpath": "./content/logos/logo_DELTALLOYD.png"
+
+    }
+  ]
+
+}
