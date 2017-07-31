@@ -36,8 +36,10 @@ module.exports = {
     '~assets/css/main.css',
     '~assets/css/font-awesome.min.css',
     '~/assets/fonts/coolvetica+aileron/stylesheet.css',
-    'bootstrap/dist/css/bootstrap.css',
-    'bootstrap-vue/dist/bootstrap-vue.css'
+    '~assets/css/compiledbootstrap/bootstrap.css',
+    //'bootstrap/dist/css/bootstrap.css',
+    //'bootstrap-vue/dist/bootstrap-vue.css'
+
   ],
 
   plugins: ['~plugins/bootstrap-vue-plugin','~/plugins/lodash-plugin.js','~/plugins/vue-resource-plugin.js',{ src: '~/plugins/vueawesomeswiper-plugin.js', ssr: false }],
